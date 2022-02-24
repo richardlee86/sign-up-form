@@ -1,0 +1,38 @@
+body {
+    height: 100vh;
+    padding: 0;
+    margin: 0;
+}
+
+.main-container {
+    height: 100vh;
+    width: 100%;    
+    display: flex;
+}
+.left-image-container {
+    background-color: blueviolet;
+    width: 35%;
+}
+.transparent-logo{
+    position: relative;
+    top: 20%;
+    background-color: black;
+    height: 15%;
+}
+.right-form-container {
+    background-color: red;
+    width: 65%;
+}
+.info {
+    background-color: yellow;
+    height: 35%;
+}
+.form-container {
+    background-color: cornflowerblue;
+    height: 30%;
+}
+
+.button-container {
+    background-color: green;
+    height: 35%;
+}
