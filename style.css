@@ -20,9 +20,22 @@ body {
   top: 20%;
   background-color: rgba(0, 0, 0, 0.6);
   height: 15%;
+  color: white;
+  font-family: 'Permanent Marker', cursive;
+  font-size: 2.7rem;
+  text-align: center;
+}
+.icon {
+    height: 3rem;    
 }
 .photo-credit {
   color: white;
+  text-align: center;
+  position: relative;
+  top: 80%;
+}
+.icon-credit {
+color: white;
   text-align: center;
   position: relative;
   top: 80%;
