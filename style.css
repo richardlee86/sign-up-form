@@ -52,9 +52,17 @@ a {
   background-color: rgba(38, 52, 53, 255);
   height: 35%;
 }
+.form {
+    height: 100%;    
+}
+input {
+    height: 2rem;
+    width: 20rem;
+}
 .form-container {
   background-color: rgba(125, 98, 71, 255);
   height: 30%;
+  display: flex;
 }
 
 .button-container {
