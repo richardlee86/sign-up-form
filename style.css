@@ -57,15 +57,74 @@ a {
 }
 input {
     height: 2rem;
-    width: 20rem;
+    width: 15rem;
+    margin-right: 1rem;
+    margin-left: .5rem;
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-right-radius: 10px;
+    border: none;
+}
+label {
+    margin-left: 1rem;
 }
 .form-container {
   background-color: rgba(125, 98, 71, 255);
   height: 30%;
   display: flex;
+  flex-wrap: wrap;
+  padding-left:  1rem;
+  padding-right: 1rem;
+  padding-top: 2rem;
+  font-size: 1.2rem;
+  font-family: 'Permanent Marker', cursive;
+  color: rgba(38, 52, 53, 255);
+}
+#last-name{
+    position: relative;
+    left: 3.7rem;
+}
+#email {
+    position: relative;
+    left: 2.3rem;
+}
+#phone-number {
+    position: relative;
+    left: 4.6rem;
+    width: 14.5rem;
+}
+.phone-label {
+    position: relative;
+    left: 2.5rem;
+}
+
+#password {
+    position: relative;
+    left: .8rem;
+}
+#confirm-password {
+    width: 14.4rem;
 }
 
 .button-container {
   background-color: rgba(38, 52, 53, 255);
   height: 35%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+button {
+    height: 4rem;
+    width: 20rem;
+    margin-right: 1rem;
+    margin-left: .5rem;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-right-radius: 20px;
+    border: none;   
+    font-family: 'Permanent Marker', cursive;
+    font-size: 2rem;
 }
