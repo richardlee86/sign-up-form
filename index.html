@@ -67,7 +67,7 @@
                 type="text"
                 name="last-name"
                 id="last-name"
-                placeholder="Smith"
+                placeholder="Smith"                
                 required
               />
 
@@ -86,12 +86,13 @@
                 type="password"
                 name="password"
                 id="confirm-password"
+                onchange=passwordCheck()
                 required
               />
             </div>
           </div>
           <div class="button-container">
-            <button type="submit">Sign Up</button>
+            <button type="submit" id="submit">Sign Up</button>
           </div>
         </form>
       </main>
