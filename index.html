@@ -5,49 +5,96 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap" rel="stylesheet">
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Permanent+Marker&display=swap"
+      rel="stylesheet"
+    />
     <script src="script.js" defer></script>
     <title>Sign In Form</title>
   </head>
   <body>
     <div class="main-container">
       <div class="left-image-container">
-        <div class="transparent-logo">Read Between the Wine
-             <img src="book-icon.jpg" alt="Book Icon" class="icon"></div>
-        <div class="photo-credit">Photo by <a href="https://unsplash.com/@henry_be?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Henry Be</a> on Unsplash</div>
-        <div class="icon-credit"><a href="https://www.vecteezy.com/free-vector/book-icon">Book Icon Vectors by Vecteezy</a></div>
+        <div class="transparent-logo">
+          Read Between the Wine
+          <img src="book-icon.jpg" alt="Book Icon" class="icon" />
+        </div>
+        <div class="photo-credit">
+          Photo by
+          <a
+            href="https://unsplash.com/@henry_be?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText"
+            >Henry Be</a
+          >
+          on Unsplash
+        </div>
+        <div class="icon-credit">
+          <a href="https://www.vecteezy.com/free-vector/book-icon"
+            >Book Icon Vectors by Vecteezy</a
+          >
+        </div>
       </div>
       <main class="right-form-container">
-          <div class="info"></div>
-          <form action="" class="form">
-            <div class="form-container">
-                <label for="first-name">First Name*</label>
-                <br>
-                <input type="text" name="first-name" id="first-name" placeholder="John" required>    
-                <label for="last-name">Last Name*</label>
-                <br>
-                <input type="text" name="last-name" id="last-name" placeholder="Smith" required>
-                <label for="email">e-mail*</label>
-                <br>
-                <input type="email" name="email" id="email" placeholder="john.smith@email.com" pattern=".+@globex\.com" required>    
-                <label for="phone-number" class="phone-label">Phone Number</label>
-                <br>
-                <input type="tel" name="phone-number" id="phone-number" placeholder="555-555-5555">
-                <label for="password">Password*</label>
-                <br>
-                <input type="password" name="password" id="password" required>
-                <label for="confirm">Confirm Password*</label>
-                <br>
-                <input type="password" name="password" id="confirm-password" required>
-                
-
+        <div class="info">Welcome to the only book club that is completely free of judgement! Our service has over 5000 titles across many genres to choose from. All delivered directly to your door! Sign up below to gain access to all of our titles and connect with other readers</div>
+        <form action="" class="form">
+          <div class="form-container">
+            <div class="form-left">
+              <label for="first-name">First Name*</label>              
+              <input
+                type="text"
+                name="first-name"
+                id="first-name"
+                placeholder="John"
+                required
+              />
+              <label for="email">e-mail*</label>
+              
+              <input
+                type="email"
+                name="email"
+                id="email"
+                placeholder="john.smith@email.com"                
+                required
+              />
+              <label for="password">Password*</label>              
+              <input type="password" name="password" id="password" required />
             </div>
-            <div class="button-container"><button type="submit">Sign Up</button></div>
-          </form>
-          
-        </main>
+            <div class="form-right">
+              <label for="last-name">Last Name*</label>
+              
+              <input
+                type="text"
+                name="last-name"
+                id="last-name"
+                placeholder="Smith"
+                required
+              />
+
+              <label for="phone-number" class="phone-label">Phone Number</label>
+              
+              <input
+                type="tel"
+                name="phone-number"
+                id="phone-number"
+                placeholder="555-555-5555"
+              />
+
+              <label for="confirm">Confirm Password*</label>
+              
+              <input
+                type="password"
+                name="password"
+                id="confirm-password"
+                required
+              />
+            </div>
+          </div>
+          <div class="button-container">
+            <button type="submit">Sign Up</button>
+          </div>
+        </form>
+      </main>
     </div>
   </body>
 </html>
