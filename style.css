@@ -75,6 +75,10 @@ input {
     border-bottom-right-radius: 10px;
     border: none;
 }
+
+input:focus{
+  border: 5px solid lightblue;
+}
 label {
     margin-left: 1rem;
 }
@@ -147,3 +151,4 @@ button {
 button:hover {
   cursor: pointer;
 }
+
